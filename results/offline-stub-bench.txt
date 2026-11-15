@@ -1,0 +1,16 @@
+HARNESS VALIDATION -- offline stub bench (deterministic rule agent,
+synthetic tasks). This is NOT a reproduction of the paper's benchmark
+numbers; it validates that the evidence-chain mechanism works offline.
+
+Memory-induced degradation = tasks the no-memory agent solves but the
+memory mode fails.
+
+mode               success   wrong-lesson   degradation
+-------------------------------------------------------
+no-memory              8/8            0/8           0/8
+insights-only          4/8            4/8           4/8
+wikitrace              8/8            0/8           0/8
+
+Mechanism check:
+  degradation, insights-only vs wikitrace: 4 -> 0
+  wrong-lesson rate, insights-only vs wikitrace: 50.0% -> 0.0%
