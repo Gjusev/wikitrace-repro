@@ -5,6 +5,21 @@
 [![python](https://img.shields.io/badge/python-3.9%2B-blue)]()
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/logo/logo-animated-dark.svg">
+    <img src="assets/logo/logo-animated-light.svg" alt="wikitrace-repro: a walker inspects every lesson's evidence chain before acting" width="560">
+  </picture>
+</p>
+
+<p align="center">
+  <a href="assets/video/wikitrace-repro.mp4">
+    <img src="assets/video/preview.gif" alt="A walker visits each node of a lesson-diagnosis-trajectory chain, then a check draws on the last node" width="720">
+  </a>
+  <br>
+  <sub><a href="assets/video/wikitrace-repro.mp4">Watch the 8-second film (MP4, 0.1 MB)</a>. Every number in it comes from the committed results in this repo.</sub>
+</p>
+
 Offline repro/test harness for **WikiTrace** — evidence-linked memory that
 reduces memory-induced degradation in LLM agents.
 
