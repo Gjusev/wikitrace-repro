@@ -1,5 +1,10 @@
 # wikitrace-repro
 
+[![tests](https://github.com/Gjusev/wikitrace-repro/actions/workflows/tests.yml/badge.svg)](https://github.com/Gjusev/wikitrace-repro/actions/workflows/tests.yml)
+[![dependencies](https://img.shields.io/badge/dependencies-0-success)]()
+[![python](https://img.shields.io/badge/python-3.9%2B-blue)]()
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
 Offline repro/test harness for **WikiTrace** — evidence-linked memory that
 reduces memory-induced degradation in LLM agents.
 
