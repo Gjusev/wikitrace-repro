@@ -14,10 +14,10 @@
 
 <p align="center">
   <a href="assets/video/wikitrace-repro.mp4">
-    <img src="assets/video/preview.gif" alt="A walker visits each node of a lesson-diagnosis-trajectory chain, then a check draws on the last node" width="720">
+    <img src="assets/video/preview.gif" alt="wikitrace-repro: the animated mark beside the headline number, 4/8 → 0/8 degradation on the stub bench, with evidence links" width="720">
   </a>
   <br>
-  <sub><a href="assets/video/wikitrace-repro.mp4">Watch the 8-second film (MP4, 0.1 MB)</a>. Every number in it comes from the committed results in this repo.</sub>
+  <sub><a href="assets/video/wikitrace-repro.mp4">Watch the 8-second film (MP4, 0.2 MB)</a>. Every number in it comes from the committed results in this repo.</sub>
 </p>
 
 Offline repro/test harness for **WikiTrace** — evidence-linked memory that
